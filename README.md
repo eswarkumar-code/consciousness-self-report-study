@@ -80,7 +80,7 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff).
 
 ## License
 
-- **Code** in `code/`: [MIT](LICENSE).
+- **Code** in `code/`, `tests/` and `manuscript/build.sh`: [MIT](LICENSE).
 - **All other materials**: [CC BY 4.0](LICENSE-CC-BY-4.0).
 - **Model responses** in `data/`: also subject to the respective providers' terms.
 

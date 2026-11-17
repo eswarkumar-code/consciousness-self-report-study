@@ -3,7 +3,8 @@ Creative Commons Attribution 4.0 International (CC BY 4.0)
 Copyright (c) 2026 Eswar Kumar Jonnadula
 
 This license covers everything in this release other than the code in the
-`code/` directory (which is MIT-licensed; see LICENSE): the manuscript, the
+`code/` and `tests/` directories and `manuscript/build.sh` (which are
+MIT-licensed; see LICENSE): the manuscript, the
 probe battery, the coding rubric, the label sets (machine coder, judge and
 human audit), the analysis plan, and the released data files.
 
