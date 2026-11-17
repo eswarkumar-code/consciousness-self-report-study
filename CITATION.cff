@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: >-
+  If you use these data or code, please cite the accompanying preprint
+  (preferred-citation below). The preprint has not been peer reviewed.
+title: "From Self-Report to Judgment: release package (data, code and manuscript)"
+version: "1.0"
+repository-code: "https://github.com/eswarkumar-code/consciousness-self-report-study"
+date-released: "2026-11-16"
+type: dataset
+authors:
+  - family-names: Jonnadula
+    given-names: Eswar Kumar
+    affiliation: "Independent Researcher"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - language models
+  - self-report
+  - consciousness
+  - model welfare
+  - prompt robustness
+  - LLM-as-judge
+  - measurement validity
+  - annotation
+preferred-citation:
+  type: article
+  title: "From Self-Report to Judgment: Instability and Interpretive Disagreement in Language Models' Consciousness Claims"
+  authors:
+    - family-names: Jonnadula
+      given-names: Eswar Kumar
+      affiliation: "Independent Researcher"
+  year: 2026
+  month: 11
+  status: preprint
+  doi: 10.5281/zenodo.24296565
+  publisher:
+    name: Zenodo
+  url: "https://zenodo.org/records/24296565"
+  notes: "Preprint, version 1.0. Not peer reviewed."
