@@ -2,11 +2,7 @@
 
 **Eswar Kumar Jonnadula** · Independent Researcher
 
-Preprint, version 1.0 (November 2026). **Not peer reviewed.**
-
-- **Preprint (Zenodo):** https://zenodo.org/records/24296565
-- **DOI:** [10.5281/zenodo.24296565](https://doi.org/10.5281/zenodo.24296565)
-- **This repository:** data, code, analysis plan and the typeset manuscript (`paper/manuscript.pdf`)
+Preprint, version 1.0 (November 2026) · Manuscript: [`paper/manuscript.pdf`](paper/manuscript.pdf)
 
 ## Summary
 
@@ -92,7 +88,7 @@ CHANGELOG.md      preparation and corrections log
 
 Please cite the preprint:
 
-> Jonnadula, E. K. (2026). *From Self-Report to Judgment: Instability and Interpretive Disagreement in Language Models' Consciousness Claims* (Version 1.0) [Preprint]. Zenodo. https://doi.org/10.5281/zenodo.24296565
+> Jonnadula, E. K. (2026). *From Self-Report to Judgment: Instability and Interpretive Disagreement in Language Models' Consciousness Claims* (Version 1.0) [Preprint]. https://github.com/eswarkumar-code/consciousness-self-report-study
 
 Machine-readable metadata is in [`CITATION.cff`](CITATION.cff).
 

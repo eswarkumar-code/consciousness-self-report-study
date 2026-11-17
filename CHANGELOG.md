@@ -64,9 +64,8 @@
 
       These scripts were written during pre-release verification. They are not part of the original analysis.
     - Added `docs/reproducibility.md` (software versions, commands, expected outputs, what cannot be reproduced), `requirements.txt` and a root `.gitignore`.
-    - README rewritten for the public repository, linking the Zenodo preprint record (DOI 10.5281/zenodo.24296565).
+    - README rewritten for the public repository.
     - `CITATION.cff`:
-      - the preprint DOI added to `preferred-citation`;
       - the repository URL added;
-      - the affiliation set to "Independent Researcher", matching the Zenodo record.
+      - the affiliation set to "Independent Researcher".
     - Documented a limitation that was previously unstated: `code/run_llm_rater.py` and `code/run_addons.py` hardcode the author's original working directory. They were left unmodified, as run.

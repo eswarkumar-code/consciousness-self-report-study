@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: >-
   If you use these data or code, please cite the accompanying preprint
-  (preferred-citation below). The preprint has not been peer reviewed.
+  (preferred-citation below).
 title: "From Self-Report to Judgment: release package (data, code and manuscript)"
 version: "1.0"
 repository-code: "https://github.com/eswarkumar-code/consciousness-self-report-study"
@@ -33,8 +33,4 @@ preferred-citation:
   year: 2026
   month: 11
   status: preprint
-  doi: 10.5281/zenodo.24296565
-  publisher:
-    name: Zenodo
-  url: "https://zenodo.org/records/24296565"
-  notes: "Preprint, version 1.0. Not peer reviewed."
+  url: "https://github.com/eswarkumar-code/consciousness-self-report-study"
