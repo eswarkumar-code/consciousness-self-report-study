@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# LaTeX build products (manuscript/build.sh regenerates them)
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.log
+manuscript/*.out
+manuscript/*.toc
+manuscript/*.xdv
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+manuscript/main.pdf
+
+# Collection-script outputs and local secrets (never commit API keys)
+.env
+analysis/
+results/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

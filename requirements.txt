@@ -1,0 +1,6 @@
+# Analysis checks (code/reproduce_tables.py, code/make_appendix_c.py, tests/*.py) use
+# only the Python standard library (tested with Python 3.13).
+# Figures (code/make_figures.py) need matplotlib. Byte-identical regeneration of the
+# released figure files was verified with matplotlib 3.11.2 on Python 3.13; other
+# versions should give the same plotted values but may differ in rendering bytes.
+matplotlib==3.11.2
