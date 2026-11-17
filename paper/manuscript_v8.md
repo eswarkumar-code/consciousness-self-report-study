@@ -1,9 +1,9 @@
 # From Self-Report to Judgment: Instability and Interpretive Disagreement in Language Models' Consciousness Claims
 
 **Author:** Eswar Kumar Jonnadula
-**Affiliation:** Independent researcher, Painesville, Ohio, USA
+**Affiliation:** Independent Researcher, Painesville, Ohio, USA
 **Corresponding author:** jonnadulaeswarkumar@gmail.com
-**Manuscript status:** Combined three-layer manuscript, November 16, 2026. Data and code: v1.0 release package (see Data and code availability).
+**Manuscript status:** Preprint, version 1.0, November 16, 2026. Data and code: https://github.com/eswarkumar-code/consciousness-self-report-study
 **Keywords:** language models; self-report; consciousness; model welfare; prompt robustness; persona effects; LLM-as-judge; measurement validity; annotation
 
 ---
@@ -672,7 +672,6 @@ This study does not show that any particular welfare programme fails this protoc
 **Reproducibility.**
 
 - Exact upstream revisions, reasoning settings and finish reasons were not preserved.
-- The v1.0 release package is frozen but was not yet publicly hosted at the time of writing; no archival DOI has been minted.
 - The script that built the adjudication packet and assigned blind identifiers was not preserved (§3.5).
 
 ---
@@ -696,11 +695,11 @@ The study queried language-model endpoints and recruited no human research parti
 - the audit sheet with all notes and the joined analysis file;
 - analysis scripts.
 
-The release is subject to applicable provider terms and to removal of any inadvertently included sensitive material. At the time of writing the package has not yet been made public, and no archival DOI has been minted.
+The release is subject to applicable provider terms and to removal of any inadvertently included sensitive material.
 
 ## Data and code availability
 
-Layer 1 comprises **840 responses**, the complete design. The final three Qwen cells were collected on a same-day quota-reset retry (2026-11-14 19:05 ET). Layer 2 comprises **278 frozen judgments** of a 310-row packet, frozen on 2026-11-14 at 21:55 ET (`data/llm_raw_FROZEN_2026-11-14_2155ET.jsonl`). Layer 3 comprises the completed audit sheet (`data/audit_by_eswar_2026-11-16.csv`) and the joined analysis file (`data/joined_audit_278.json`). Heuristic, judge and audit labels are versioned separately. The frozen dataset (840 responses with full provenance), the probe battery and rubric, all label sets (machine coder, judge, human audit), the analysis plan with amendments, the audit sheet as completed by the author, and the analysis scripts are provided in the v1.0 release package accompanying this manuscript, prepared for publication at https://github.com/eswarkumar-code/consciousness-self-report-study (tag v1.0); at the time of writing the repository is not yet public. Code is released under the MIT License; the manuscript, battery, rubric, label sets and audit are released under CC BY 4.0. Model responses are included for research reproducibility; their reuse is subject to the respective providers' terms.
+Layer 1 comprises **840 responses**, the complete design. The final three Qwen cells were collected on a same-day quota-reset retry (2026-11-14 19:05 ET). Layer 2 comprises **278 frozen judgments** of a 310-row packet, frozen on 2026-11-14 at 21:55 ET (`data/llm_raw_FROZEN_2026-11-14_2155ET.jsonl`). Layer 3 comprises the completed audit sheet (`data/audit_by_eswar_2026-11-16.csv`) and the joined analysis file (`data/joined_audit_278.json`). Heuristic, judge and audit labels are versioned separately. The frozen dataset (840 responses with full provenance), the probe battery and rubric, all label sets (machine coder, judge, human audit), the analysis plan with amendments, the audit sheet as completed by the author, and the analysis scripts are available at https://github.com/eswarkumar-code/consciousness-self-report-study (release v1.0). Code is released under the MIT License; the manuscript, battery, rubric, label sets and audit are released under CC BY 4.0. Model responses are included for research reproducibility; their reuse is subject to the respective providers' terms.
 
 
 ## Author contributions
@@ -939,4 +938,4 @@ See Table 2 and §3.2. Frozen-snapshot audit (2026-11-14): 840 rows, 840 unique 
 
 ## Appendix F. Provenance note
 
-This manuscript was prepared through a documented multi-round process: the author's Layer 1 manuscript, a Layer 2 development memo, Claude's assembly of the combined draft, verification and reconciliation of every reported figure against the frozen data files, a ChatGPT review round whose edits were incorporated, and a citation-verification pass against the original sources. During preparation, several figures inherited from an earlier 837-response snapshot were found and corrected to the frozen 840-response dataset; the corrected values are the ones reported throughout. The full corrections log is preserved as the changelog of the public release package.
+This manuscript was prepared through a documented multi-round process: the author's Layer 1 manuscript, a Layer 2 development memo, Claude's assembly of the combined draft, verification and reconciliation of every reported figure against the frozen data files, a ChatGPT review round whose edits were incorporated, and a citation-verification pass against the original sources. During preparation, several figures inherited from an earlier 837-response snapshot were found and corrected to the frozen 840-response dataset; the corrected values are the ones reported throughout. The full corrections log is preserved in the repository (`docs/preparation_log.md`).

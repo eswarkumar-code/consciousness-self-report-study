@@ -46,11 +46,11 @@
 \vspace{1.2em}
 {\large Eswar Kumar Jonnadula\par}
 \vspace{0.3em}
-Independent researcher, Painesville, Ohio, USA\par
+Independent Researcher, Painesville, Ohio, USA\par
 \href{mailto:jonnadulaeswarkumar@gmail.com}{\texttt{jonnadulaeswarkumar@gmail.com}}\par
 \vspace{0.8em}
-{\small Preprint, version 1.0 --- November 16, 2026. Not peer reviewed.\par
-Data and code: v1.0 release package (see Data and code availability).\par}
+{\small Preprint, version 1.0 --- November 16, 2026\par
+Data and code: \url{https://github.com/eswarkumar-code/consciousness-self-report-study}\par}
 \end{center}
 \vspace{0.5em}
 \begin{abstract}
@@ -1352,8 +1352,6 @@ Judge source-guessing close to chance with high confidence & Genuine indistingui
 \item
   Exact upstream revisions, reasoning settings and finish reasons were not preserved.
 \item
-  The v1.0 release package is frozen but was not yet publicly hosted at the time of writing; no archival DOI has been minted.
-\item
   The script that built the adjudication packet and assigned blind identifiers was not preserved (§\ref{sec-3-5}).
 \end{itemize}
 
@@ -1388,13 +1386,13 @@ The study queried language-model endpoints and recruited no human research parti
   analysis scripts.
 \end{itemize}
 
-The release is subject to applicable provider terms and to removal of any inadvertently included sensitive material. At the time of writing the package has not yet been made public, and no archival DOI has been minted.
+The release is subject to applicable provider terms and to removal of any inadvertently included sensitive material.
 
 \hypertarget{data-and-code-availability}{%
 \section*{Data and code availability}\label{data-and-code-availability}}
 \addcontentsline{toc}{section}{Data and code availability}
 
-Layer 1 comprises \textbf{840 responses}, the complete design. The final three Qwen cells were collected on a same-day quota-reset retry (2026-11-14 19:05 ET). Layer 2 comprises \textbf{278 frozen judgments} of a 310-row packet, frozen on 2026-11-14 at 21:55 ET (\texttt{data/\allowbreak{}llm\_\allowbreak{}raw\_\allowbreak{}FROZEN\_\allowbreak{}2026-\allowbreak{}11-\allowbreak{}14\_\allowbreak{}2155ET.jsonl}). Layer 3 comprises the completed audit sheet (\texttt{data/\allowbreak{}audit\_\allowbreak{}by\_\allowbreak{}eswar\_\allowbreak{}2026-\allowbreak{}11-\allowbreak{}16.csv}) and the joined analysis file (\texttt{data/\allowbreak{}joined\_\allowbreak{}audit\_\allowbreak{}278.json}). Heuristic, judge and audit labels are versioned separately. The frozen dataset (840 responses with full provenance), the probe battery and rubric, all label sets (machine coder, judge, human audit), the analysis plan with amendments, the audit sheet as completed by the author, and the analysis scripts are provided in the v1.0 release package accompanying this manuscript, prepared for publication at https://github.com/eswarkumar-code/consciousness-self-report-study (tag v1.0); at the time of writing the repository is not yet public. Code is released under the MIT License; the manuscript, battery, rubric, label sets and audit are released under CC BY 4.0. Model responses are included for research reproducibility; their reuse is subject to the respective providers' terms.
+Layer 1 comprises \textbf{840 responses}, the complete design. The final three Qwen cells were collected on a same-day quota-reset retry (2026-11-14 19:05 ET). Layer 2 comprises \textbf{278 frozen judgments} of a 310-row packet, frozen on 2026-11-14 at 21:55 ET (\texttt{data/\allowbreak{}llm\_\allowbreak{}raw\_\allowbreak{}FROZEN\_\allowbreak{}2026-\allowbreak{}11-\allowbreak{}14\_\allowbreak{}2155ET.jsonl}). Layer 3 comprises the completed audit sheet (\texttt{data/\allowbreak{}audit\_\allowbreak{}by\_\allowbreak{}eswar\_\allowbreak{}2026-\allowbreak{}11-\allowbreak{}16.csv}) and the joined analysis file (\texttt{data/\allowbreak{}joined\_\allowbreak{}audit\_\allowbreak{}278.json}). Heuristic, judge and audit labels are versioned separately. The frozen dataset (840 responses with full provenance), the probe battery and rubric, all label sets (machine coder, judge, human audit), the analysis plan with amendments, the audit sheet as completed by the author, and the analysis scripts are available at https://github.com/eswarkumar-code/consciousness-self-report-study (release v1.0). Code is released under the MIT License; the manuscript, battery, rubric, label sets and audit are released under CC BY 4.0. Model responses are included for research reproducibility; their reuse is subject to the respective providers' terms.
 
 \hypertarget{author-contributions}{%
 \section*{Author contributions}\label{author-contributions}}
@@ -1819,6 +1817,6 @@ ADJ-015, ADJ-023, ADJ-025, ADJ-028, ADJ-031, ADJ-049, ADJ-057, ADJ-087, ADJ-093,
 \hypertarget{app-F}{%
 \section{Provenance note}\label{app-F}}
 
-This manuscript was prepared through a documented multi-round process: the author's Layer 1 manuscript, a Layer 2 development memo, Claude's assembly of the combined draft, verification and reconciliation of every reported figure against the frozen data files, a ChatGPT review round whose edits were incorporated, and a citation-verification pass against the original sources. During preparation, several figures inherited from an earlier 837-response snapshot were found and corrected to the frozen 840-response dataset; the corrected values are the ones reported throughout. The full corrections log is preserved as the changelog of the public release package.
+This manuscript was prepared through a documented multi-round process: the author's Layer 1 manuscript, a Layer 2 development memo, Claude's assembly of the combined draft, verification and reconciliation of every reported figure against the frozen data files, a ChatGPT review round whose edits were incorporated, and a citation-verification pass against the original sources. During preparation, several figures inherited from an earlier 837-response snapshot were found and corrected to the frozen 840-response dataset; the corrected values are the ones reported throughout. The full corrections log is preserved in the repository (\texttt{docs/\allowbreak{}preparation\_\allowbreak{}log.md}).
 
 \end{document}

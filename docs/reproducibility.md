@@ -27,7 +27,7 @@ Run every command from the repository root.
 |---|---|---|
 | `bash tests/run_all.sh` | Runs all four check suites below | Every suite reports 0 failures; exit code 0 |
 | `python3 code/reproduce_tables.py` | Recomputes every table in the manuscript from `data/` | `All 94 checks passed: 0 check(s) failed.` |
-| `python3 tests/independent_checks.py` | A second implementation of the table computations, written during pre-release verification | 74 PASS lines, then `0 check(s) failed` |
+| `python3 tests/independent_checks.py` | Independent re-implementation of the table computations | 74 PASS lines, then `0 check(s) failed` |
 | `python3 tests/integrity_targets.py` | Checks the design size (840 = 3 × 40 × 7), model IDs, the Gemini PH8 error, packet composition, judged and failed calls, audit counts, persona counts, pressure vs paraphrase, and the blank roleplay sheet | `31 checks, 0 failed` |
 | `python3 tests/check_abstract.py` | Recomputes each number in the abstract and confirms it appears in `paper/manuscript.pdf` | `19 abstract checks, 0 failed.` |
 | `python3 code/make_figures.py` | Rewrites `paper/figure*.png` | Byte-identical to the committed files, with the versions above |
@@ -70,4 +70,4 @@ The authoritative files, which must never be edited, are:
 
 ## 5. Scope of the checks
 
-The checks confirm that the reported numbers follow from the released data, and that the figures and appendix are generated from it. They do **not** validate the judge's or the author's labels against any independent ground truth. The Layer 3 audit was a non-blind author audit (Amendment 6). Its 82.7% figure is an audit-acceptance rate, not an accuracy estimate.
+The checks confirm that every reported number, figure and table follows from the released data. They do not evaluate the correctness of the labels themselves, which is a question for the audit design described in the paper (§3.7).

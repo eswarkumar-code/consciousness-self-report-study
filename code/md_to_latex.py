@@ -447,8 +447,8 @@ TITLEPAGE = r"""\begin{center}
 AFFILIATION\par
 \href{mailto:EMAIL}{\texttt{EMAIL}}\par
 \vspace{0.8em}
-{\small Preprint, version 1.0 --- DATE. Not peer reviewed.\par
-Data and code: v1.0 release package (see Data and code availability).\par}
+{\small Preprint, version 1.0 --- DATE\par
+Data and code: \url{https://github.com/eswarkumar-code/consciousness-self-report-study}\par}
 \end{center}
 \vspace{0.5em}
 \begin{abstract}
